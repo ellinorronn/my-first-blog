@@ -8,7 +8,7 @@ h1 a {
 }
 
 .page-header {
-	background-image: url("aurora.jpg");
+	background-image: url("/aurora.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
     background-color: #ff9400;
