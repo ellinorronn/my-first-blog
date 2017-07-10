@@ -8,14 +8,16 @@ h1 a {
 }
 
 .page-header {
-/*	background-image: url("/aurora.jpg");*/
+/*	background-image: url("aurora.jpg");*/
 /*	background-image: url("{{=URL('static','images/aurora')}}")*/
-
-	background-image: url(url_for('static', filename='aurora.jpg'));
+/*	background-image: url(url_for('static', filename='aurora.jpg'));*/
+/*	background-image: url("aurora.jpg");*/
+	background: url('{{ STATIC_URL }}aurora.jpg');
 
 	background-size: cover;
 	background-repeat: no-repeat;
     background-color: #ff9400;
+/*	background-color: #99ff66;*/
     margin-top: 0;
     padding: 20px 20px 20px 40px;
 }
