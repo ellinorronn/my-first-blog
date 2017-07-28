@@ -34,7 +34,7 @@ def post_new(request):
 			form = PostForm()
 		return render(request, 'blog/post_edit.html', {'form': form})
 
-def test(request):
+def about(request):
 #	user = get_object_or_404(User, user=user)
-	return render(request, 'blog/test.html')
+	return render(request, 'blog/about.html')
 

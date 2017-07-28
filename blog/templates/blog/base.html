@@ -11,7 +11,7 @@
     <body>
         <div class="page-header">
 			<div class="top-menu">
-				<a href="{% url 'test' %}" class="top-menu-item"> About me </a>
+<!--				<a href="{% url 'about' %}" class="top-menu-item"> About me </a> -->
 				<a href="{% url 'blog' %}" class="top-menu-item"> Blog </a>
 				{% if user.is_authenticated %}
             		<a href="{% url 'post_new' %}" class="top-menu-item"><span class="glyphicon
